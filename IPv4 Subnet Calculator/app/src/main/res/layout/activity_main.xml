@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81D4FA"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/IPv4Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPv4 Address"
+        android:textColor="#FF6D00"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/EditIPv4Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the first IPv4 Address!"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditIPv4Address2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the second IPv4 Address!"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditIPv4Address3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the third IPv4 Address!"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditIPv4Address4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the last IPv4 Address!"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/SubnetMask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subnet Mask"
+        android:textColor="#FF6D00" />
+
+    <EditText
+        android:id="@+id/EditSubnetMask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the first Subnet Mask!"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditSubnetMask2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the second Subnet Mask!"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditSubnetMask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the third Subnet Mask!"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditSubnetMask4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the last Subnet Mask!"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Calculate!"
+        android:textColor="#6200EA" />
+
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Answer!" />
+
+</LinearLayout>
